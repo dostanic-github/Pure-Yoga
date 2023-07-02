@@ -1,0 +1,16 @@
+.header {
+  margin: 1rem;
+
+  .navbar-toggler {
+    border: none;
+    box-shadow: none;
+  }
+
+  .nav-link {
+    font-size: 1.1rem;
+
+    &:hover {
+      color: $gold-color;
+    }
+  }
+}

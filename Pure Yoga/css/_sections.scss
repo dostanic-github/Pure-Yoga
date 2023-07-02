@@ -1,0 +1,103 @@
+.banner-section {
+  background: center / cover no-repeat url("/assets/banner/banner.png");
+  color: #ffffff;
+  height: 500px;
+
+  small {
+    font-size: 2rem;
+  }
+}
+
+.decoration-section {
+  background: center / cover no-repeat url("/assets/decoration/decoration.png");
+  color: #ffffff;
+  height: 400px;
+
+  small {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+}
+
+.classes-section {
+  background-color: $blue-color;
+  color: #ffffff;
+  padding: 5rem 0;
+}
+
+.about-section {
+  .about-image {
+    max-height: 400px;
+  }
+}
+
+.retreats-section {
+  .retreat-image {
+    background: center/cover no-repeat url("/assets/retreats/retreats.png");
+    color: #ffffff;
+    height: 300px;
+
+    .text {
+      small {
+        font-size: 1.5rem;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .retreat-schedule {
+    margin-top: -100px;
+
+    .retreat {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 2rem;
+      max-width: 350px;
+      background-color: #ffffff;
+      padding: 2rem 1rem;
+
+      img {
+        width: 100px;
+        margin: auto;
+      }
+
+      .text {
+        max-width: 300px;
+        margin: auto;
+
+        h6 {
+          font-size: 1.5rem;
+        }
+
+        p {
+          font-size: 1.1rem;
+          height: 80px;
+        }
+
+        .custom-button {
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
+}
+
+.moments-section {
+  .main-title {
+    margin-bottom: 50px;
+  }
+
+  .moment {
+    max-width: 350px;
+
+    .text {
+      max-width: 330px;
+
+      h4 {
+        font-weight: 700;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

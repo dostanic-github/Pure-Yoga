@@ -1,0 +1,37 @@
+@media screen and (min-width: 800px) {
+  .about-section {
+    .about-image {
+      max-height: 600px;
+    }
+  }
+
+  .retreats-section {
+    .retreat-image {
+      height: 400px;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header {
+    margin: 2rem 4rem;
+  }
+
+  .section {
+    margin: 10rem 1rem;
+  }
+
+  .banner-section {
+    height: 700px;
+  }
+
+  .about-section {
+    .about-image {
+      max-height: 800px;
+    }
+  }
+
+  .testimonials-section {
+    margin-top: 10rem;
+  }
+}

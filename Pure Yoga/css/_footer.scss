@@ -1,0 +1,62 @@
+.footer {
+  background-color: #f4f4f4;
+  padding: 5rem 1rem;
+
+  .footer-logo {
+    width: min(100%, 100px);
+  }
+
+  h6 {
+    font-size: 2rem;
+  }
+
+  .footer-title {
+    margin-bottom: 1.5rem;
+  }
+
+  .footer-link {
+    color: inherit;
+    text-decoration: none;
+    transition: $transition;
+
+    &:hover {
+      color: $gold-color;
+    }
+  }
+
+  .social {
+    span {
+      color: $gold-color;
+      margin-left: 10px;
+    }
+  }
+
+  p {
+    font-size: 1rem;
+    max-width: 300px;
+  }
+
+  .email-input {
+    background-color: #f4f4f4;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid $gold-color;
+    padding-bottom: 10px;
+    color: $gold-color;
+    margin: 1rem 1rem 1rem 0;
+  }
+
+  .submit-button {
+    @extend .custom-button;
+    font-size: 1rem;
+    background: none;
+    color: $gold-color;
+    border: 1px solid $gold-color;
+    margin: 0;
+
+    &:hover {
+      background-color: #ad9637;
+      color: #ffffff;
+    }
+  }
+}
